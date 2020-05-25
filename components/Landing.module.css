@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap');
+
+.heading {
+    @apply text-5xl font-semibold;
+    font-family: 'Bitter', 'Courier New';
+}
+
+.landing {
+    @apply w-full min-h-screen flex flex-col text-center justify-center;
+}
