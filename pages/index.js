@@ -6,13 +6,13 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 
-import getSkillData from '../lib/utils';
+import { getSkillData, getProjectData  } from '../lib/utils';
 
 import Fade from 'react-reveal/Fade';
 import Contact from '../components/Contact'
 
 
-export default function Home({ skillData }) {
+export default function Home({ skillData, projectData }) {
 
   return (
     <Layout>
@@ -24,7 +24,7 @@ export default function Home({ skillData }) {
       <Fade duration={1000}>
         <About></About>
         <Skills skillData={ skillData }></Skills>
-        <Projects></Projects>
+        <Projects projectData={ projectData }></Projects>
         <Contact></Contact>
       </Fade>
     </Layout>
@@ -33,10 +33,12 @@ export default function Home({ skillData }) {
 
 export async function getStaticProps() {
   const skillData = getSkillData()
+  const projectData = getProjectData()
 
   return {
       props:  { 
-        skillData 
+        skillData,
+        projectData
       }
   }
 }

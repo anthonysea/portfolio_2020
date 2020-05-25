@@ -1,0 +1,24 @@
+[
+    {
+        "name": "portfolio_2020",
+        "description": "Updated portfolio website built with ReactJS, NextJS, Tailwind CSS, ",
+        "github": "https://github.com/anthonysea/portfolio_2020",
+        "url": null,
+        "tags": ["ReactJS", "TailwindCSS", "NextJS", "WebDevelopment"]
+    },
+    {
+        "name": "acnh_web_app",
+        "description": "Animal Crossing: New Horizons web app used to display information about fish, bugs, fossils and villagers.",
+        "github": "https://github.com/anthonysea/acnh_web_app",
+        "url": "https://acnh-web-app.now.sh/",
+        "tags": ["ReactJS", "Firebase", "Bootstrap", "WebDevelopment"]
+    },
+    {
+        "name": "acnh_api",
+        "description": "Animal Crossing: New Horizons REST API that scrapes data from the New Horizons wikipedia and served the corresponding data.",
+        "github": "https://github.com/anthonysea/acnh_web_app",
+        "url": null,
+        "tags": ["Python", "Flask", "Connexion", "Scrapy", "WebScraping"]
+    }
+    
+]

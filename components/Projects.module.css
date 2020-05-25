@@ -1,0 +1,20 @@
+.card {
+    @apply flex flex-col border shadow-sm rounded-sm p-4;
+}
+
+.projectName {
+    @apply flex flex-row  justify-between font-semibold italic text-gray-800 mb-1;
+}
+
+.projectDescription {
+    @apply text-gray-700 font-light text-sm  mb-1;
+}
+
+.projectTags {
+    @apply flex flex-wrap font-semibold text-gray-700 text-xs;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+}
