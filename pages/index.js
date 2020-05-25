@@ -8,6 +8,9 @@ import Projects from '../components/Projects'
 
 import getSkillData from '../lib/utils';
 
+import Fade from 'react-reveal/Fade';
+import Contact from '../components/Contact'
+
 
 export default function Home({ skillData }) {
 
@@ -18,9 +21,12 @@ export default function Home({ skillData }) {
       </Head>
 
       <Landing></Landing>
-      <About></About>
-      <Skills skillData={ skillData }></Skills>
-      <Projects></Projects>
+      <Fade duration={1000}>
+        <About></About>
+        <Skills skillData={ skillData }></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
+      </Fade>
     </Layout>
   )
 }
