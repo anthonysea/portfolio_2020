@@ -13,6 +13,10 @@ export default function Landing({ children, props }) {
                 <div className="mx-2 px-2"><a href="#projects">Projects</a></div>
                 <div className="mx-2 px-2"><a href="#contact">Contact</a></div>
             </div>
+            <div className="flex flex-row justify-center">
+                <div className="mx-4 self-center"><a href="https://www.github.com/anthonysea/"><img className="githubIcon" src="images/github.png"></img></a></div>
+                <div className="mx-4 self-center"><a href="https://www.linkedin.com/in/anthony-chao-396540195/"><img className="icon" src="images/linkedin.png"></img></a></div>
+            </div>
         </div>
     )
 }
