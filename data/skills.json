@@ -1,0 +1,42 @@
+[
+    {
+        "imgUrl": "images/python.png",
+        "skill": "Scripting & Software Development",
+        "description": "Python • Bash"
+    },
+    {
+        "imgUrl": "images/html.png",
+        "skill": "Web Design & Development",
+        "description": "HTML • CSS • JavaScript"
+    },
+    {
+        "imgUrl": "images/react.png",
+        "skill": "Frontend Javascript Frameworks",
+        "description": "ReactJS • VueJS"
+    },
+    {
+        "imgUrl": "images/git.png",
+        "skill": "Version Control Systems",
+        "description": "Git • GitHub • GitLab"
+    },
+    {
+        "imgUrl": "images/java.png",
+        "skill": "Software Development",
+        "description": "Java • C • C++"
+    },
+    {
+        "imgUrl": "images/firebase.png",
+        "skill": "Cross-platform App Integration",
+        "description": "Firebase • Swagger"
+    },
+    {
+        "imgUrl": "images/database.png",
+        "skill": "Database Management Systems",
+        "description": "PostgeSQL • MySQL"
+    },
+    {
+        "imgUrl": "images/data-analysis.png",
+        "skill": "Data Analysis",
+        "description": "R • Python • MATLAB"
+    }
+]
