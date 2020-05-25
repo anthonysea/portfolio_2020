@@ -9,3 +9,17 @@ body {
 .top-banner > h1 {
     font-family: 'Courier New';
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: #212121;
+    }
+}
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212121;
+        color: #fefefe;
+    }
+} */

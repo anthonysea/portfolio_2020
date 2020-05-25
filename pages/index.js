@@ -8,6 +8,7 @@ import Projects from '../components/Projects'
 
 import getSkillData from '../lib/utils';
 
+
 export default function Home({ skillData }) {
 
   return (
