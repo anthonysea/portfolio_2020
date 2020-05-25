@@ -10,7 +10,7 @@ export default function Landing({ children, props }) {
     }
 
     return (
-        <div className="min-h-screen flex flex-col text-center justify-center">
+        <div className="gradient min-h-screen flex flex-col text-center justify-center">
             <div className="top-banner">
                 <h1 className="text-5xl font-semibold">Anthony Chao</h1>
                 <p>Welcome to my website :~)</p>
