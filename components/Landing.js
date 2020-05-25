@@ -4,7 +4,7 @@ export default function Landing({ children, props }) {
 
     return (
         <div className={ styles.landing }>
-            <h1 className={ styles.heading }>Anthony Chao</h1>
+            <h1 className={ styles.heading }><a href="/">Anthony Chao</a></h1>
             <p>Welcome to my website :~)</p>
             <div className="my-4 flex flex-row justify-center">
                 {/* <span className="mx-2 px-2" onClick={() => scrollTo('#about')}>About</span> */}

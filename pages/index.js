@@ -5,11 +5,13 @@ import Landing from'../components/Landing'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+
 
 import { getSkillData, getProjectData  } from '../lib/utils';
 
 import Fade from 'react-reveal/Fade';
-import Contact from '../components/Contact'
 
 
 export default function Home({ skillData, projectData }) {
@@ -26,6 +28,7 @@ export default function Home({ skillData, projectData }) {
         <Skills skillData={ skillData }></Skills>
         <Projects projectData={ projectData }></Projects>
         <Contact></Contact>
+        <Footer></Footer>
       </Fade>
     </Layout>
   )

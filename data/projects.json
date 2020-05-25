@@ -18,7 +18,14 @@
         "description": "Animal Crossing: New Horizons REST API that scrapes data from the New Horizons wikipedia and served the corresponding data.",
         "github": "https://github.com/anthonysea/acnh_web_app",
         "url": null,
-        "tags": ["Python", "Flask", "Connexion", "Scrapy", "WebScraping"]
+        "tags": ["Python", "Flask", "Swagger", "Scrapy", "WebScraping"]
+    },
+    {
+        "name": "nba_player_compare",
+        "description": "Web application that dynamically visualizes and compares player data pulled from stats.nba.com using Python, Flask, and VueJS",
+        "github": "https://github.com/anthonysea/nba_player_compare",
+        "url": null,
+        "tags": ["Python", "Flask", "Swagger", "VueJS", "WebDevelopment"]
     }
     
 ]
