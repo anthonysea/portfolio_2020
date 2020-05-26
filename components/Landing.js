@@ -3,14 +3,15 @@ import { useContext } from 'react';
 import ThemeContext from '../context/ThemeContext';
 
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
+import WelcomeText from './WelcomeText';
 
 export default function Landing({ children, props }) {
-    const { dark, setDark } = useContext(ThemeContext)
+    const { dark } = useContext(ThemeContext)
 
     return (
         <div className={ styles.landing }>
             <h1 className={ styles.heading }><a href="/">Anthony Chao</a></h1>
-            <p>Welcome to my website :~)</p>
+            <WelcomeText/>
             <div className="my-4 flex flex-row justify-center">
                 <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#about">About</a></div>
                 <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#skills">Skills</a></div>

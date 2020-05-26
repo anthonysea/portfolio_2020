@@ -1,7 +1,7 @@
 [
     {
         "name": "portfolio_2020",
-        "description": "Updated portfolio website built with ReactJS, NextJS, Tailwind CSS, ",
+        "description": "Updated portfolio website built with ReactJS, NextJS, and Tailwind CSS, ",
         "github": "https://github.com/anthonysea/portfolio_2020",
         "url": null,
         "tags": ["ReactJS", "TailwindCSS", "NextJS", "WebDevelopment"]

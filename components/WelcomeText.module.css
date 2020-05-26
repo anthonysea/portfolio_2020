@@ -1,0 +1,27 @@
+.code {
+    font-family: "Fira Mono", "Courier New"
+}
+
+.console {
+    color: #383a42;
+}
+
+.log {
+    color: #23974a;
+}
+
+.string {
+    color: #c5a332;
+}
+
+.consoleDark {
+    color: #bd93f9;
+}
+
+.logDark {
+    color: #8be9fd;
+}
+
+.stringDark {
+    color: #f1fa8c;
+}
