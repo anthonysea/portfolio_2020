@@ -3,9 +3,10 @@ import Fade from 'react-reveal/Fade';
 import SectionHeading from '../components/SectionHeading'
 import { useContext } from 'react';
 import ThemeContext from '../context/ThemeContext';
+import styles from './Skills.module.css';
 
 export default function Skills({ skillData, children, props }) {
-    const dark = useContext(ThemeContext)
+    const { dark } = useContext(ThemeContext)
 
     return (
         <div id="skills" className="mb-4">
@@ -14,7 +15,7 @@ export default function Skills({ skillData, children, props }) {
                 {skillData.map(({ imgUrl, skill, description}) => {
                     return (
                         <Fade key={ imgUrl } duration={1500}>
-                            <div data-aos="fade-in" className="flex border border-gray-800 border-opacity-75 rounded-sm shadow-md p-2">
+                            <div className={`${ dark ? "border-gray-800" : "border-gray-400" } ${styles.card}`}>
                                 <img className="icon self-center" src={ imgUrl }></img>
                                 <div className="ml-2">
                                     <p>{ skill }</p>

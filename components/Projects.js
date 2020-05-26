@@ -2,8 +2,12 @@ import SectionHeading from '../components/SectionHeading';
 import styles from './Projects.module.css';
 
 import Fade from 'react-reveal/Fade';
+import { useContext } from 'react';
+import ThemeContext from '../context/ThemeContext';
 
 export default function Projects({ projectData, children, props }) {
+    const { dark } = useContext(ThemeContext)
+
     return (
         <div id="projects" className="mb-4">
             <SectionHeading title="Projects" imgUrl="images/code.png"/>
@@ -11,7 +15,7 @@ export default function Projects({ projectData, children, props }) {
                 { projectData.map(({ name, description, github, url, tags}) => {
                     return (
                         <Fade key={ name } duration={1500}>
-                            <div key={ name } className={ styles.card }>
+                            <div key={ name } className={`${ dark ? "border-gray-800" : "border-gray-300" } ${styles.card}` }>
                                 <div className={ styles.projectName }>
                                     <div>{ name }</div>
                                     <div className="flex">
@@ -29,7 +33,7 @@ export default function Projects({ projectData, children, props }) {
                                 <div className={ styles.projectDescription }>{ description }</div>
                                 <div className={ styles.projectTags }>
                                     { tags.map(tag => {
-                                        return <span className="mr-2">#{ tag }</span>
+                                        return <span key={ tag } className="mr-2">#{ tag }</span>
                                     })}
                                 </div>
                             </div>

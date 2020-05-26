@@ -1,0 +1,3 @@
+.card {
+    @apply flex border border-opacity-75 rounded-sm shadow-md p-2
+}

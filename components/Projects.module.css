@@ -1,5 +1,5 @@
 .card {
-    @apply flex flex-col border border-gray-800 border-opacity-75 shadow-md rounded-sm p-4;
+    @apply flex flex-col border border-opacity-75 shadow-md rounded-sm p-4;
 }
 
 .projectName {
@@ -11,7 +11,7 @@
 }
 
 .projectTags {
-    @apply flex flex-wrap font-semibold text-gray-700 text-xs;
+    @apply flex flex-wrap font-semibold text-gray-600 text-xs;
 }
 
 .icon {
