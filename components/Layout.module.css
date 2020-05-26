@@ -1,9 +1,11 @@
 .dark {
     background-color: #212121;
     color: #fefefe;
+    transition: 0.5s;
 }
 
 .light {
     background-color: white;
     color: #212121;
+    transition: 0.5s;
 }
