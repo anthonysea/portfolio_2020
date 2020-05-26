@@ -2,6 +2,8 @@ import styles from './Landing.module.css';
 import { useContext } from 'react';
 import ThemeContext from '../context/ThemeContext';
 
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
+
 export default function Landing({ children, props }) {
     const { dark, setDark } = useContext(ThemeContext)
 
@@ -17,10 +19,10 @@ export default function Landing({ children, props }) {
             </div>
             <div className="flex flex-row justify-center">
                 <div className="mx-4 self-center">
-                    <a href="https://www.github.com/anthonysea/" target="_blank"><img className="githubIcon" src="images/github.png"></img></a>
+                    <a href="https://www.github.com/anthonysea/" target="_blank"><IoLogoGithub size="20px" color={ dark ? "white" : "black" }/></a>
                 </div>
                 <div className="mx-4 self-center">
-                    <a href="https://www.linkedin.com/in/anthony-chao-396540195/" target="_blank"><img className="icon" src="images/linkedin.png"></img></a>
+                    <a href="https://www.linkedin.com/in/anthony-chao-396540195/" target="_blank"><IoLogoLinkedin size="22px" color={ dark ? "white" : "#2867b2" }/></a>
                 </div>
             </div>
         </div>
