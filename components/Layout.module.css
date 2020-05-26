@@ -9,3 +9,7 @@
     color: #212121;
     transition: 0.5s;
 }
+
+.themeToggle {
+    @apply fixed top-0 right-0 p-2 cursor-pointer
+}

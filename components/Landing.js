@@ -14,7 +14,6 @@ export default function Landing({ children, props }) {
                 <div className="mx-2 px-2"><a className={ styles.link } href="#skills">Skills</a></div>
                 <div className="mx-2 px-2"><a className={ styles.link } href="#projects">Projects</a></div>
                 <div className="mx-2 px-2"><a className={ styles.link } href="#contact">Contact</a></div>
-                <div onClick={() => setDark(!dark)}>Toggle Theme</div>
             </div>
             <div className="flex flex-row justify-center">
                 <div className="mx-4 self-center">
