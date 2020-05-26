@@ -1,9 +1,12 @@
-import SectionHeading from '../components/SectionHeading';
-import styles from './Projects.module.css';
-
-import Fade from 'react-reveal/Fade';
 import { useContext } from 'react';
+import Fade from 'react-reveal/Fade';
+
+import SectionHeading from '../components/SectionHeading';
 import ThemeContext from '../context/ThemeContext';
+
+import styles from './Projects.module.css';
+import { IoLogoGithub } from 'react-icons/io';
+import { FaExternalLinkAlt } from 'react-icons/fa';
 
 export default function Projects({ projectData, children, props }) {
     const { dark } = useContext(ThemeContext)
@@ -20,11 +23,11 @@ export default function Projects({ projectData, children, props }) {
                                     <div>{ name }</div>
                                     <div className="flex">
                                         <div className="self-center">
-                                            <a href={ github } target="_blank"><img className={ styles.icon } src="images/github.png"></img></a>
+                                            <a href={ github } target="_blank"><IoLogoGithub color={ dark ? "white" : "#212121"}/></a>
                                         </div>
                                         { url &&
-                                        <div className="self-center ml-2">
-                                            <a href={ url } target="_blank"><img className={ styles.icon } src="images/external-link.png"></img></a>
+                                        <div className="self-center ml-3">
+                                            <a href={ url } target="_blank"><FaExternalLinkAlt size="14px" color={ dark ? "white" : "#212121" }/></a>
                                         </div>
                                         }
                                         

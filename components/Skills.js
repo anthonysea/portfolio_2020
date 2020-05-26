@@ -1,8 +1,9 @@
+import { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 
 import SectionHeading from '../components/SectionHeading'
-import { useContext } from 'react';
 import ThemeContext from '../context/ThemeContext';
+
 import styles from './Skills.module.css';
 
 export default function Skills({ skillData, children, props }) {

@@ -12,10 +12,10 @@ export default function Landing({ children, props }) {
             <h1 className={ styles.heading }><a href="/">Anthony Chao</a></h1>
             <p>Welcome to my website :~)</p>
             <div className="my-4 flex flex-row justify-center">
-                <div className="mx-2 px-2"><a className={ styles.link } href="#about">About</a></div>
-                <div className="mx-2 px-2"><a className={ styles.link } href="#skills">Skills</a></div>
-                <div className="mx-2 px-2"><a className={ styles.link } href="#projects">Projects</a></div>
-                <div className="mx-2 px-2"><a className={ styles.link } href="#contact">Contact</a></div>
+                <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#about">About</a></div>
+                <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#skills">Skills</a></div>
+                <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#projects">Projects</a></div>
+                <div className="mx-2 px-2"><a className={ dark ? styles.linkDark : styles.link } href="#contact">Contact</a></div>
             </div>
             <div className="flex flex-row justify-center">
                 <div className="mx-4 self-center">

@@ -27,3 +27,13 @@
     /* dark theme */
     /* color: #fef9d7; */
 }
+
+.linkDark {
+    color: #d299c2;
+    @apply font-semibold;
+    transition: 0.7s;
+}
+
+.linkDark:hover {
+    color: #fef9d7;
+}
