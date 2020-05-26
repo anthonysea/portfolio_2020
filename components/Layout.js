@@ -7,11 +7,11 @@ import { IoMdSunny, IoIosMoon } from 'react-icons/io'
 import styles from './Layout.module.css';
 
 export default function Layout({ children, props }) {
-    const { dark, setDark } = useContext(ThemeContext)
+    const { dark, toggleDark } = useContext(ThemeContext)
 
     return (
         <div className={`${dark ? styles.dark : styles.light} wrapper`}>
-            <div className={ styles.themeToggle } onClick={() => setDark(!dark)}>
+            <div className={ styles.themeToggle } onClick={() => toggleDark()}>
                 { dark ? 
                 <IoIosMoon color="white"/> :
                 <IoMdSunny/>}
