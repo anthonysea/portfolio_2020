@@ -1,8 +1,12 @@
 import Fade from 'react-reveal/Fade';
 
 import SectionHeading from '../components/SectionHeading'
+import { useContext } from 'react';
+import ThemeContext from '../context/ThemeContext';
 
 export default function Skills({ skillData, children, props }) {
+    const dark = useContext(ThemeContext)
+
     return (
         <div id="skills" className="mb-4">
             <SectionHeading title="skills" imgUrl="images/maintenance.png"/>
@@ -10,11 +14,11 @@ export default function Skills({ skillData, children, props }) {
                 {skillData.map(({ imgUrl, skill, description}) => {
                     return (
                         <Fade key={ imgUrl } duration={1500}>
-                            <div data-aos="fade-in" className="flex border rounded-sm shadow-sm p-2">
+                            <div data-aos="fade-in" className="flex border border-gray-800 border-opacity-75 rounded-sm shadow-md p-2">
                                 <img className="icon self-center" src={ imgUrl }></img>
                                 <div className="ml-2">
-                                    <p className="text-gray-800">{ skill }</p>
-                                    <p className="text-gray-700">{ description }</p>
+                                    <p>{ skill }</p>
+                                    <p className={`${ dark ? "text-gray-400" : "text-gray-700" } font-light`}>{ description }</p>
                                 </div>
                             </div>
                         </Fade>

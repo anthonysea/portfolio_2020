@@ -8,3 +8,22 @@
 .landing {
     @apply w-full min-h-screen flex flex-col text-center justify-center;
 }
+
+.link {
+    /* light theme */
+    color: #f68084;
+    
+    /* dark theme */
+    /* color: #d299c2; */
+
+    @apply font-semibold;
+    transition: 0.7s;
+}
+
+.link:hover {
+    /* light theme */
+    color: #a6c0fe;
+
+    /* dark theme */
+    /* color: #fef9d7; */
+}

@@ -10,7 +10,7 @@ export default function Projects({ projectData, children, props }) {
             <div className="p-2 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 md:col-gap-12 md:gap-8">
                 { projectData.map(({ name, description, github, url, tags}) => {
                     return (
-                        <Fade duration={1500}>
+                        <Fade key={ name } duration={1500}>
                             <div key={ name } className={ styles.card }>
                                 <div className={ styles.projectName }>
                                     <div>{ name }</div>

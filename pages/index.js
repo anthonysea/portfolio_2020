@@ -18,10 +18,6 @@ export default function Home({ skillData, projectData }) {
 
   return (
     <Layout>
-      <Head>
-        <title>Anthony Chao</title>
-      </Head>
-
       <Landing></Landing>
       <Fade duration={1000}>
         <About></About>

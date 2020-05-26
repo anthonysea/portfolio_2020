@@ -1,13 +1,13 @@
 .card {
-    @apply flex flex-col border shadow-sm rounded-sm p-4;
+    @apply flex flex-col border border-gray-800 border-opacity-75 shadow-md rounded-sm p-4;
 }
 
 .projectName {
-    @apply flex flex-row  justify-between font-semibold italic text-gray-800 mb-1;
+    @apply flex flex-row  justify-between font-semibold italic mb-1;
 }
 
 .projectDescription {
-    @apply text-gray-700 font-light text-sm  mb-1;
+    @apply font-light text-sm  mb-1;
 }
 
 .projectTags {
