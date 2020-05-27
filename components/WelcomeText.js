@@ -7,7 +7,11 @@ export default function WelcomeText({ children }) {
     const { dark } = useContext(ThemeContext)
     return (
         <div >
-            <Typist className={styles.code} avgTypingDelay={120}>
+            <Typist 
+                className={styles.code} 
+                avgTypingDelay={120}
+                cursor={{ hideWhenDone : true}}
+            >
                 <span className={ styles.console }>console</span>
                 .
                 <span className={ styles.log }>log</span>(
