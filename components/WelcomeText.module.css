@@ -3,7 +3,7 @@
 }
 
 .console {
-    color: #383a42;
+    color: #b87aff;
 }
 
 .log {
@@ -11,17 +11,5 @@
 }
 
 .string {
-    color: #c5a332;
-}
-
-.consoleDark {
-    color: #bd93f9;
-}
-
-.logDark {
-    color: #8be9fd;
-}
-
-.stringDark {
-    color: #f1fa8c;
+    color: #be950f;
 }

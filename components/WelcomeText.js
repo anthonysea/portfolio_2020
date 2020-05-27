@@ -7,11 +7,13 @@ export default function WelcomeText({ children }) {
     const { dark } = useContext(ThemeContext)
     return (
         <div >
-            <Typist className={styles.code} avgTypingDelay={100}>
-                <span className={ dark ? styles.consoleDark : styles.console }>console</span>
+            <Typist className={styles.code} avgTypingDelay={120}>
+                <span className={ styles.console }>console</span>
                 .
-                <span className={ dark ? styles.logDark : styles.log }>log</span>
-                (<span className={ dark ? styles.stringDark : styles.string }>"Welcome to my website! :~)"</span>)
+                <span className={ styles.log }>log</span>(
+                <Typist.Backspace count={12} delay={300}></Typist.Backspace>
+                <span className={ styles.log }>print</span>
+                (<span className={ styles.string }>"Welcome to my website! :~)"</span>)
             </Typist>
         </div>
     )
