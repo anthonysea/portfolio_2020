@@ -4,7 +4,7 @@ import SectionHeading from '../SectionHeading';
 const Education = ({ educationData, children, props }) => {
 
     return (
-        <div>
+        <div id="education">
             <SectionHeading title='Education' imgUrl='images/graduation-cap.png'/>
             <div className="m-2">
                 {educationData.map(({ school, cert, years }) => {

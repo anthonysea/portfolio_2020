@@ -4,7 +4,7 @@ import WorkCard from '../work/WorkCard';
 const Work = ({ workData, children, props }) => {
 
     return (
-        <div>
+        <div id="work">
             <SectionHeading imgUrl='images/briefcase.png' title='work experience'/>
             <div className="m-2">
                 {workData.map(({ company, title, tags, location, startDate, endDate }) => {
