@@ -2,7 +2,17 @@
     {
         "company": "AVA Technologies Inc.",
         "location": "Vancouver, BC",
+        "startDate": "Sep 2020",
+        "endDate": "",
         "title": "Embedded Software Engineer",
         "tags": ["C", "C++", "ESP-IDF", "Embedded System Design", "RTOS", "IoT"]
+    },
+    {
+        "company": "Logocom Labs",
+        "location": "Vancouver, BC",
+        "startDate": "March 2020",
+        "endDate": "",
+        "title": "Fullstack Software Engineer",
+        "tags": ["Python", "C", "C++", "Web Development", "React", "Next.js", "Embedded Software Development"]
     }
 ]
