@@ -10,6 +10,7 @@ const Education = ({ educationData, children, props }) => {
                 {educationData.map(({ school, cert, years }) => {
                     return (
                         <EducationCard
+                            key={ school }
                             school={ school }
                             cert={ cert }
                             years={ years}

@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
 import Landing from'../components/Landing';
 import About from '../components/About';
-import Skills from '../components/Skills';
+import Skills from '../components/skills/Skills';
 import Work from '../components/work/Work';
 import Education from '../components/education/Education';
-import Projects from '../components/Projects';
+import Projects from '../components/projects/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import TwoColumn from '../components/TwoColumn';
@@ -34,7 +34,7 @@ export default function Home({ workData, educationData, skillData, projectData }
   // On component mount, load theme settings from localStorage
   useEffect(() => {
     const tmpDark = JSON.parse(localStorage.getItem("dark"));
-    console.log("localstorage dark: ", tmpDark);
+    // console.log("localstorage dark: ", tmpDark);
 
     if (tmpDark === false) {
       setDark(tmpDark);

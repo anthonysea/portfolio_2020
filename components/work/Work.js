@@ -10,6 +10,7 @@ const Work = ({ workData, children, props }) => {
                 {workData.map(({ company, title, tags, location, startDate, endDate }) => {
                     return (
                         <WorkCard 
+                            key={ company }
                             company={ company }
                             title={ title }
                             tags={ tags }
