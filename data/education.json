@@ -1,0 +1,12 @@
+[
+    {
+        "school": "Simon Fraser University",
+        "cert": "Bachelor's Degree in Computing Science",
+        "years": [2016, 2019]
+    },
+    {
+        "school": "Langara College",
+        "cert": "Associate of Science, Computer Science",
+        "years": [2014, 2016]
+    }
+]
