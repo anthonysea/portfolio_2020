@@ -1,5 +1,12 @@
 [
     {
+        "name": "Email Raffle Parser",
+        "description": "Email parsing GUI program created to automatically validate and select raffle entries through email",
+        "github": "",
+        "url": null,
+        "tags": ["Python", "IMAP", "PyQT", "Automation"]
+    },
+    {
         "name": "portfolio_2020",
         "description": "Updated portfolio website built with ReactJS, NextJS, and Tailwind CSS, ",
         "github": "https://github.com/anthonysea/portfolio_2020",

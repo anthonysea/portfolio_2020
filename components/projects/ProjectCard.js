@@ -18,7 +18,9 @@ const ProjectCard = ({ name, github, url, description, tags }) => {
                     <div>{ name }</div>
                     <div className="flex">
                         <div className="self-center">
+                            { github && 
                             <a href={ github } target="_blank"><IoLogoGithub color={ dark ? "white" : "#212121"}/></a>
+                            }
                         </div>
                         { url &&
                         <div className="self-center ml-3">
