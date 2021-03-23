@@ -1,5 +1,5 @@
 .card {
-    @apply flex flex-col transition-colors duration-300 border border-opacity-75 shadow-md rounded-sm p-4;
+    @apply flex flex-col p-4;
 }
 
 .projectName {

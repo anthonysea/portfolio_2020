@@ -1,13 +1,13 @@
 [
     {
-        "imgUrl": "images/python.png",
-        "skill": "Scripting & Software Development",
-        "description": "Python • Bash"
+        "imgUrl": "images/html.png",
+        "skill": "Web Development & Design",
+        "description": "HTML • CSS • JavaScript"
     },
     {
-        "imgUrl": "images/html.png",
-        "skill": "Web Design & Development",
-        "description": "HTML • CSS • JavaScript"
+        "imgUrl": "images/python.png",
+        "skill": "Software Development",
+        "description": "Python • C/C++ • Java"
     },
     {
         "imgUrl": "images/react.png",
@@ -15,14 +15,19 @@
         "description": "ReactJS • VueJS"
     },
     {
+        "imgUrl": "images/motherboard.png",
+        "skill": "Embedded Systems",
+        "description": "ESP32 • ESP-IDF • Arduino"
+    },
+    {
         "imgUrl": "images/git.png",
         "skill": "Version Control Systems",
         "description": "Git • GitHub • GitLab"
     },
     {
-        "imgUrl": "images/java.png",
-        "skill": "Software Development",
-        "description": "Java • C • C++"
+        "imgUrl": "images/bash.png",
+        "skill": "Scripting",
+        "description": "Bash • Python"
     },
     {
         "imgUrl": "images/firebase.png",

@@ -1,0 +1,10 @@
+[
+    {
+        "company": "AVA Technologies Inc.",
+        "location": "Vancouver, BC",
+        "startDate": "Sep 2020",
+        "endDate": "",
+        "title": "Embedded Software Engineer",
+        "tags": ["C", "C++", "ESP-IDF", "Embedded System Design", "RTOS", "IoT"]
+    }
+]
