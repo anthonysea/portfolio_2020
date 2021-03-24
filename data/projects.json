@@ -1,5 +1,12 @@
 [
     {
+        "name": "E-Commerce Web Application",
+        "description": "Mock e-commerce web application built with React, React-Router, Redux, Firebase, and Stripe",
+        "github": "https://github.com/anthonysea/clown-clothing",
+        "url": "https://clown-live.herokuapp.com/",
+        "tags": ["React", "Redux", "Firebase", "Stripe", "SCSS"]
+    },
+    {
         "name": "Email Raffle Parser",
         "description": "Email parsing GUI program created to automatically validate and select raffle entries through email",
         "github": "",
@@ -11,14 +18,14 @@
         "description": "Updated portfolio website built with ReactJS, NextJS, and Tailwind CSS, ",
         "github": "https://github.com/anthonysea/portfolio_2020",
         "url": null,
-        "tags": ["ReactJS", "TailwindCSS", "NextJS", "WebDevelopment"]
+        "tags": ["React", "TailwindCSS", "NextJS", "WebDevelopment"]
     },
     {
         "name": "acnh_web_app",
         "description": "Animal Crossing: New Horizons web app used to display information about fish, bugs, fossils and villagers.",
         "github": "https://github.com/anthonysea/acnh_web_app",
         "url": "https://acnh-web-app.now.sh/",
-        "tags": ["ReactJS", "Firebase", "Bootstrap", "WebDevelopment"]
+        "tags": ["React", "Firebase", "Bootstrap", "WebDevelopment"]
     },
     {
         "name": "acnh_api",
