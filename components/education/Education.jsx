@@ -6,7 +6,7 @@ const Education = ({ educationData, children, props }) => {
     return (
         <div id="education">
             <SectionHeading title='Education' imgUrl='images/graduation-cap.png'/>
-            <div className="m-2">
+            <div className="mx-4 mb-4">
                 {educationData.map(({ school, cert, years }) => {
                     return (
                         <EducationCard

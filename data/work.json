@@ -6,5 +6,13 @@
         "endDate": "",
         "title": "Embedded Software Engineer",
         "tags": ["C", "C++", "ESP-IDF", "Embedded System Design", "RTOS", "IoT"]
+    },
+    {
+        "company": "Stussy Vancouver",
+        "location": "Vancouver, BC",
+        "startDate": "Oct 2017",
+        "endDate": "Aug 2020",
+        "title": "Assistant Manager",
+        "tags": ["Customer Service"]
     }
 ]

@@ -17,7 +17,7 @@
     {
         "imgUrl": "images/motherboard.png",
         "skill": "Embedded Systems",
-        "description": "ESP32 • ESP-IDF • Arduino"
+        "description": "Yocto • Embedded Linux • ESP32 • ESP-IDF"
     },
     {
         "imgUrl": "images/git.png",

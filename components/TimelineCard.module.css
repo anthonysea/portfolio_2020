@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+}
+
+.container::before,
+.container:not(:last-child)::after {
+  @apply bg-gray-600;
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -.25em;
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+}
+
+.container:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: calc(50% + .5em);
+  left: -1px;
+  width: 2px;
+  height: calc(100% + 1em); 
+}
+
+@media (min-width: 1024px) {
+  .container:not(:last-child)::after {
+    height: calc(100% + 2em);
+  }
+}

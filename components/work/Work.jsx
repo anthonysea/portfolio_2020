@@ -6,7 +6,7 @@ const Work = ({ workData, children, props }) => {
     return (
         <div id="work">
             <SectionHeading imgUrl='images/briefcase.png' title='work experience'/>
-            <div className="m-2">
+            <div className="mx-4 mb-4">
                 {workData.map(({ company, title, tags, location, startDate, endDate }) => {
                     return (
                         <WorkCard 
