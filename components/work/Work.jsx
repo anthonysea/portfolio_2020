@@ -1,5 +1,5 @@
 import SectionHeading from '../SectionHeading';
-import WorkCard from '../work/WorkCard';
+import WorkCard from './WorkCard';
 
 const Work = ({ workData, children, props }) => {
 

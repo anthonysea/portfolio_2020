@@ -1,4 +1,4 @@
-import EducationCard from '../education/EducationCard';
+import EducationCard from './EducationCard';
 import SectionHeading from '../SectionHeading';
 
 const Education = ({ educationData, children, props }) => {

@@ -5,7 +5,7 @@ import SectionHeading from '../SectionHeading'
 import ThemeContext from '../../context/ThemeContext';
 
 
-import SkillCard from '../skills/SkillCard';
+import SkillCard from './SkillCard';
 
 export default function Skills({ skillData, children, props }) {
 

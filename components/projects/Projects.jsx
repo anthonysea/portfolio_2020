@@ -1,5 +1,5 @@
 import SectionHeading from '../SectionHeading';
-import ProjectCard from '../projects/ProjectCard';
+import ProjectCard from './ProjectCard';
 
 export default function Projects({ projectData, children, props }) {
 
