@@ -22,7 +22,7 @@
     },
     {
         "name": "acnh_web_app",
-        "description": "Animal Crossing: New Horizons web app used to display information about fish, bugs, fossils and villagers.",
+        "description": "Animal Crossing: New Horizons web app used to display information about fish, bugs, fossils and villagers",
         "github": "https://github.com/anthonysea/acnh_web_app",
         "url": "https://acnh-web-app.now.sh/",
         "tags": ["React", "Firebase", "Bootstrap", "WebDevelopment"]
