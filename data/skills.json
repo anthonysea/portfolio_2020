@@ -31,8 +31,8 @@
     },
     {
         "imgUrl": "images/firebase.png",
-        "skill": "Cloud-based DevOps",
-        "description": "Firebase • AWS"
+        "skill": "Cross-platform App Integration",
+        "description": "Firebase • Swagger"
     },
     {
         "imgUrl": "images/database.png",
@@ -40,8 +40,8 @@
         "description": "PostgeSQL • MySQL"
     },
     {
-        "imgUrl": "images/data-analysis.png",
-        "skill": "Data Analysis",
-        "description": "R • Python • MATLAB"
+        "imgUrl": "images/aws.png",
+        "skill": "Cloud DevOps",
+        "description": "AWS"
     }
 ]
