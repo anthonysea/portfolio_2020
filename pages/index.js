@@ -8,6 +8,7 @@ import Projects from '../components/projects/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import TwoColumn from '../components/TwoColumn';
+import Resume from '../components/Resume';
 
 import { getSkillData, getProjectData, getWorkData, getEducationData  } from '../lib/utils';
 
@@ -56,7 +57,10 @@ export default function Home({ workData, educationData, skillData, projectData }
           <Education educationData={ educationData }/>
         </TwoColumn>
         <Projects projectData={ projectData }/>
-        <Contact/>
+        <TwoColumn>
+          <Resume/>
+          <Contact/>
+        </TwoColumn>
         <Footer/>
       </Fade>
     </Layout>

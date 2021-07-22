@@ -18,6 +18,7 @@ export default function Landing({ children, props }) {
                 <div className="m-1 md:mx-2 md:px-2"><a className={ dark ? styles.linkDark : styles.link } href="#work">Work</a></div>
                 <div className="m-1 md:mx-2 md:px-2"><a className={ dark ? styles.linkDark : styles.link } href="#education">Education</a></div>
                 <div className="m-1 md:mx-2 md:px-2"><a className={ dark ? styles.linkDark : styles.link } href="#projects">Projects</a></div>
+                <div className="m-1 md:mx-2 md:px-2"><a className={ dark ? styles.linkDark : styles.link } href="#resume">Resume</a></div>
                 <div className="m-1 md:mx-2 md:px-2"><a className={ dark ? styles.linkDark : styles.link } href="#contact">Contact</a></div>
             </div>
             <div className="flex flex-row justify-center">

@@ -11,7 +11,7 @@ export default function Layout({ children, props }) {
 
     return (
         <div className={`${dark ? styles.dark : styles.light} wrapper`}>
-            <div className={ styles.themeToggle } onClick={() => toggleDark()}>
+            <div className={ `${styles.themeToggle} z-10` } onClick={() => toggleDark()}>
                 { dark ? 
                 <IoIosMoon color="white"/> :
                 <IoMdSunny/>}

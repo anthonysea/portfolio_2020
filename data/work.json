@@ -5,7 +5,7 @@
         "startDate": "Sep 2020",
         "endDate": "",
         "title": "Embedded Software Engineer",
-        "tags": ["C", "C++", "ESP-IDF", "Embedded System Design", "RTOS", "IoT"]
+        "tags": ["C", "C++","Yocto", "BitBake", "ESP-IDF", "Embedded System Design", "RTOS", "IoT"]
     },
     {
         "company": "Stussy Vancouver",
@@ -13,6 +13,6 @@
         "startDate": "Oct 2017",
         "endDate": "Aug 2020",
         "title": "Assistant Manager",
-        "tags": ["Customer Service"]
+        "tags": ["Customer Service", "Sales", "Management"]
     }
 ]
