@@ -1,13 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    @apply font-body;
+    @apply font-body w-full;
 }
 
 .wrapper {
-    @apply w-full;
+    @apply w-full h-full;
 }
 
 .icon {

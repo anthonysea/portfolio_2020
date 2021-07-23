@@ -1,5 +1,4 @@
 import React from 'react';
-import '../public/css/tailwind.css'
 import '../public/css/global.css'
 
 // Have to have Component and pageProps

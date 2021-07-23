@@ -13,7 +13,7 @@ const ProjectCard = ({ name, github, url, description, tags }) => {
 
     return (
         <Fade key={ name } duration={1500}>
-            <Card className={`${ dark ? "border-gray-800" : "border-gray-300" } ${styles.card}` }>
+            <Card className={`${ dark ? "border-gray-700" : "border-gray-300" } ${styles.card}` }>
                 <div className={ styles.projectName }>
                     <div>{ name }</div>
                     <div className="flex">
