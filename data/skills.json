@@ -2,7 +2,7 @@
     {
         "imgUrl": "images/html.png",
         "skill": "Web Development & Design",
-        "description": "HTML • CSS • JavaScript"
+        "description": "HTML • CSS • JavaScript • TypeScript"
     },
     {
         "imgUrl": "images/python.png",
@@ -11,7 +11,7 @@
     },
     {
         "imgUrl": "images/react.png",
-        "skill": "Frontend Javascript Frameworks",
+        "skill": "Frontend Development",
         "description": "ReactJS • Redux • Apollo"
     },
     {
