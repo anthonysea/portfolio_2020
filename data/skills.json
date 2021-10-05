@@ -11,8 +11,8 @@
     },
     {
         "imgUrl": "images/react.png",
-        "skill": "Frontend Development",
-        "description": "ReactJS • Redux • Apollo"
+        "skill": "Full Stack Web Development",
+        "description": "ReactJS • NextJS • Redux • Apollo • TypeORM • Express"
     },
     {
         "imgUrl": "images/motherboard.png",
