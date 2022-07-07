@@ -1,9 +1,17 @@
 [
     {
+        "company": "Deloitte Consulting Inc.",
+        "location": "Vancouver, BC",
+        "startDate": "Jan 2022",
+        "endDate": "",
+        "title": "Business Analyst",
+        "tags": ["Full Stack Development", "JavaScript", "TypeScript", "React", "Express.js", "Node", "Jest", "Tailwind CSS", "WebSockets"]
+    },
+    {
         "company": "AVA Technologies Inc.",
         "location": "Vancouver, BC",
         "startDate": "Sep 2020",
-        "endDate": "",
+        "endDate": "Dec 2021",
         "title": "Embedded Software Engineer",
         "tags": ["C", "C++","Yocto", "BitBake", "ESP-IDF", "Embedded System Design", "RTOS", "IoT", "AWS"]
     },
@@ -15,4 +23,3 @@
         "title": "Assistant Manager",
         "tags": ["Customer Service", "Sales", "Management"]
     }
-]
